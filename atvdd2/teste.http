@@ -1,0 +1,15 @@
+GET http://localhost:77/produtos
+
+###
+
+GET http://localhost:3000/pessoas/2
+###
+
+POST http://localhost:77/produtos
+Content-Type: application/json
+
+{
+    "nome": "lanterna HB20",
+    "preco": 280,
+    "categoria": "lanterna"
+}
